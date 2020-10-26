@@ -1,0 +1,76 @@
+################## Hero area ##################
+hero_area:
+  enable : true
+  bg_image : "images/header.jpg"
+  overlay : true
+
+################### Gallery ###################
+gallery:
+  enable : true
+  title : "特色菜品"
+  images:
+    - "images/slider/slider-img-1.jpg"
+    - "images/slider/slider-img-2.jpg"
+    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-4.jpg"
+    - "images/slider/slider-img-1.jpg"
+    - "images/slider/slider-img-2.jpg"
+    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-4.jpg"
+
+################ About #######################
+about:
+  enable : true
+  image : "images/cooker-img.png"
+  title : "味道、卫生、服务一直可以做的更好一点"
+  description : "椒房餐厅成立于2018年，主要涉及湘味小碗菜、炒菜以及企业团餐业务。</br>餐厅注重口味、卫生、服务，为软件园广场企业员工提供优质的堂食服务，在周圈有着很好的口碑。餐厅为大量的企业提供团餐服务，比如斗鱼、海康、明源云、滴滴、分期乐等等。"
+  
+################# Blog ######################
+blog:
+  enable : true
+  title : "我们的 <span>菜品</span>"
+  bg_image : "images/blog/blog-bg.jpg"
+  overlay : true
+
+
+################# food Menu ################
+pricing:
+  enable : true
+  title : "团餐 <span>套餐</span>"
+  description: "椒房餐厅一直为企业提供团餐服务，主要客户为：斗鱼、海康、明源云、滴滴、分期乐等等。在团餐这块，餐厅拥有丰富的经验，口味、卫生、服务有着优质的保证。欢迎各企业订餐！"
+  subtitle : "经典套餐"
+  pricing_item:
+  - title: "两荤一素"
+    description: "香煎大白刁套餐、椒盐小鱼小虾套餐、烟笋腊肉套餐、盐菜小笋肉丝套餐、香辣糍粑鱼套餐、蒜香鸡套餐"
+    price : "￥ 15.00"
+
+  - title: "两荤一素"
+    description: "川香辣子鸡套餐、蒜苗土豆腊肉套餐、卤藕回锅肉套餐、卤汁麻辣鸭套餐、老干妈烧草鱼套餐、韭菜炒河虾套餐"
+    price : "￥ 18.00"
+
+  - title: "两荤二素"
+    description: "泡藕带炒鸡杂套餐、金汤酸菜鱼套餐、杭椒小炒肉套餐、小炒拆骨肉套餐、农家一碗香套餐、香辣大虾套餐、紫苏烧牛蛙套餐、板栗烧鸡套餐"
+    price : "￥ 25.00"
+
+
+  - title: "三荤一素"
+    description: "小炒黄牛肉套餐、剁椒鱼头套餐、泥蒿炒香肠套餐、酱烧猪手套餐、香辣排骨套餐、山野笋煨牛腩套餐、青椒牛肚丝套餐"
+    price : "￥ 40.00"
+
+################### Subscription ################
+subscription:
+  enable : true
+  bg_image : "images/subscribe-bg.jpg"
+  title : "订阅我们的 <span>新菜品</span>"
+  description : "喜欢椒房的菜品？那就订阅吧！"
+  #Mailchimp subscription configaration 
+  form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  overlay : true
+
+################ Contact #######################
+contact:
+  enable : true
+  title: "联系我们"
+  subtitle: "合作需求"
+  form_action : "#" #contact form works with formspree.io
